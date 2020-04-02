@@ -14,7 +14,6 @@ const handlers = {
         } else {
             // Instatiate book
             const book = new Book(title, author, isbn);
-            console.log("Hola");
 
             // Add Book to UI
             UI.addBookToList(book);
