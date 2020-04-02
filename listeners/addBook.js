@@ -1,0 +1,1 @@
+document.getElementById('book-form').addEventListener('submit', handlers.addBook);
